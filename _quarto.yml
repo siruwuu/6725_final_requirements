@@ -8,6 +8,8 @@ website:
     left:
       - href: index.md
         text: Home
+      - href: deliverables.md
+        text: Deliverables
       - text: "Spring 2025"
         menu:
           - href: spring-2025/AI_code_refactoring.md
