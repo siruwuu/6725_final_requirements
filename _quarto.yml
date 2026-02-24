@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "6725 Final Project Requirements"
+  navbar:
+    left:
+      - href: index.md
+        text: Home
+      - text: "Spring 2025"
+        menu:
+          - href: spring-2025/AI_code_refactoring.md
+            text: AI_code_refactoring
+          - href: spring-2025/benchmarks.md
+            text: benchmarks
+          - href: spring-2025/Data_engineering_agent.md
+            text: Data_engineering_agent
+          - href: spring-2025/Embedding_Model_FineTuning.md
+            text: Embedding_Model_FineTuning
+          - href: spring-2025/QA_slackbot.md
+            text: QA_slackbot
+      - text: "Spring 2026"
+        menu:
+          - href: spring-2026/ai-data-prep-pipeline.md
+            text: ai-data-prep-pipeline
+          - href: spring-2026/ai-schema-harmonizer.md
+            text: ai-schema-harmonizer
+          - href: spring-2026/ai-spark-optimizer.md
+            text: ai-spark-optimizer
+          - href: spring-2026/ai-tech-debt-forge.md
+            text: ai-tech-debt-forge
+          - href: spring-2026/ai-trading-strategist.md
+            text: ai-trading-strategist
+          - href: spring-2026/cloud-cost-refinery.md
+            text: cloud-cost-refinery
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    # number-sections: true
+    smooth-scroll: true
+    code-fold: false
+    code-tools: false
+
+execute:
+  enabled: false
